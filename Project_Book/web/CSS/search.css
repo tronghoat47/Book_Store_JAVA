@@ -1,0 +1,57 @@
+
+.web-search{
+    background-color: var(--white-color);
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    margin: 30px 60px 0px 60px;
+    padding: 10px 20px;
+    line-height: 30px;
+     border-radius: 10px; 
+}
+
+.search-value {
+    /* margin: 0px 80px; */
+    /* padding-top: 10px; */
+}
+
+.search-classify{
+    /* margin: 10px 80px; */
+    
+}
+
+.search-classify-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-price input {
+    width: 70px;
+}
+
+.search-classify-form input, select{
+    border: 1px solid var(--primary-color);
+    /* background: none; */
+    color: var(--primary-color);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+.search-date input{
+    width: 120px;
+}
+
+.search-submit {
+    background-color: var(--white-color);
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.search-submit:hover {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
